@@ -1,0 +1,9 @@
+trigger:
+- master
+
+pool:
+  name: Default   # your agent pool name (where self-hosted agent is running)
+
+steps:
+- task: SimpleEchoTask@1
+  displayName: 'Frontend Hello World Echo'
